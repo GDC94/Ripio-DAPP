@@ -19,21 +19,25 @@ const Index: React.FC<Props> = () => {
       <Head>
         <title>Ripio| Inicio</title>
       </Head>
-     
+
       <Stack mb="32">
         <Cover />
       </Stack>
       <SectionOne />
-      <Stack mb='24'>
-      <FeatureOne />
+      <Stack mb="24">
+        <FeatureOne />
       </Stack>
       <ValuesSection />
       <FeatureTwo />
-      <Stack mb="24" mt='24'>
+      <Stack mb="24" mt="24">
         <LaunchpadCard />
       </Stack>
       <FooterSwitcher />
-      <Stack alignItems='center' justifyContent='center' h='auto' bg='red'><Text fontSize='12px' fontWeight='bold' color='white'>Este NO es el sitio oficial de RIPIO.</Text></Stack>
+      <Stack alignItems="center" justifyContent="center" h="auto" bg="red">
+        <Text fontSize="12px" fontWeight="bold" color="white">
+          Este NO es el sitio oficial de RIPIO.
+        </Text>
+      </Stack>
       <Helper />
     </>
   );

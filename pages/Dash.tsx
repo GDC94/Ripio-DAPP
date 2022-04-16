@@ -64,13 +64,11 @@ const Dash: React.FC<Props> = () => {
         </Flex>
       </Box>
       <Carousel />
-  
-      <Flex px='4'  h="400px" maxW='980px' m='auto' pt='5'>
+
+      <Flex px="4" h="400px" maxW="980px" m="auto" pt="5">
         <Operations />
-        <Form/>
-
+        <Form />
       </Flex>
-
     </>
   );
 };

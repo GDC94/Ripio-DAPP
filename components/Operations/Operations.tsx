@@ -8,13 +8,13 @@ interface Props {}
 
 const Operations: React.FC<Props> = () => {
   return (
-    <Flex w="50%"    px={{lg: '0',base: '4'}}>
+    <Flex w="50%" px={{ lg: "0", base: "4" }}>
       <Tabs isFitted variant="unstyled">
         <TabList>
           <Tab
-          _selected={{ color: 'black',  bg: 'twitter.100'  }}
+            _selected={{ color: "black", bg: "twitter.100" }}
             border="none"
-            rounded='lg'
+            rounded="lg"
             fontWeight="bold"
             w="230px"
             _focus={{ outline: "none" }}
@@ -22,19 +22,18 @@ const Operations: React.FC<Props> = () => {
             Mi perfil
           </Tab>
           <Tab
-          _selected={{ color: 'black', bg: 'twitter.100' }}
+            _selected={{ color: "black", bg: "twitter.100" }}
             border="none"
-            rounded='lg'
+            rounded="lg"
             fontWeight="bold"
             _focus={{ outline: "none" }}
           >
             Balance
           </Tab>
           <Tab
-          rounded='lg'
-          _selected={{ color: 'black',  bg: 'twitter.100'  }}
+            rounded="lg"
+            _selected={{ color: "black", bg: "twitter.100" }}
             border="none"
-           
             fontWeight="bold"
             _focus={{ outline: "none" }}
           >
