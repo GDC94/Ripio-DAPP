@@ -22,8 +22,14 @@ import { FOOTER_ITEMS, SOCIAL_MEDIA_ITEMS, TEXTS } from "./config";
 
 const FooterRipioMobile: React.FC = () => {
   return (
-    <Stack bg="violet.100" h="auto" px={{sm: "20",base: '6'}} pt="32" pb="28">
-      <Stack m={ "auto"} justifyContent="center" >
+    <Stack
+      bg="violet.100"
+      h="auto"
+      px={{ sm: "20", base: "6" }}
+      pt="32"
+      pb="28"
+    >
+      <Stack m={"auto"} justifyContent="center">
         <Heading
           fontFamily="heading"
           color="white"
@@ -31,12 +37,11 @@ const FooterRipioMobile: React.FC = () => {
           fontWeight="extrabold"
           fontSize={{ sm: "24px", base: "24px" }}
           pb="6"
-          
         >
           Descubrí la nueva economía <br /> digital
         </Heading>
       </Stack>
-      <Stack flexDirection="column" w={'full'} pb="3">
+      <Stack flexDirection="column" w={"full"} pb="3">
         <Button
           as="a"
           p="4"
