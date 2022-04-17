@@ -1,11 +1,16 @@
 
 
-![Next ja]()
-[License: MIT]()](https://opensource.org/licenses/MIT)
-![Typescript](https://www.typescriptlang.org)
-![Chakra UI 🎨](https://chakra-ui.com)
+
 
 # Ripio DAPP
+
+
+
+
+
+<img width="1237" alt="vista" src="https://user-images.githubusercontent.com/70720945/163723851-722c187e-4344-4bad-8188-e7346b800661.png">
+
+
 
 ## 💡 Qué es Ripio DAPP ⁇
 
