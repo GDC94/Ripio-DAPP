@@ -1,9 +1,9 @@
 
 
-![CI/CD](https://github.com/beautifulinteractions/beautiful-react-hooks/workflows/CI/CD/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/beautifulinteractions/beautiful-react-hooks/badge.svg?branch=master)](https://coveralls.io/github/beautifulinteractions/beautiful-react-hooks?branch=master)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![npm](https://img.shields.io/npm/v/beautiful-react-hooks)
-![GitHub stars](https://img.shields.io/github/stars/beautifulinteractions/beautiful-react-hooks?style=social)
+![Next ja]()
+[License: MIT]()](https://opensource.org/licenses/MIT)
+![Typescript](https://www.typescriptlang.org)
+![Chakra UI 🎨](https://chakra-ui.com)
 
 # Ripio DAPP
 
