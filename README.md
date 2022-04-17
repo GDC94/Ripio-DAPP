@@ -1,9 +1,6 @@
 
 
-![Next ja]()
-[License: MIT]()](https://opensource.org/licenses/MIT)
-![Typescript](https://www.typescriptlang.org)
-![Chakra UI 🎨](https://chakra-ui.com)
+
 
 # Ripio DAPP
 
