@@ -32,7 +32,7 @@ const Transactions: React.FC<Props> = () => {
 
   return (
     <CardContainer>
-      <Stack maxW="400px">
+      <Stack maxW={{lg: '400px', sm: 'full', base: 'full'}} px='4' >
         <Tag
           w="full"
           bg="violet.30"

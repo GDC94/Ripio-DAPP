@@ -8,34 +8,39 @@ interface Props {}
 
 const Operations: React.FC<Props> = () => {
   return (
-    <Flex w="50%" px={{ lg: "0", base: "4" }}>
-      <Tabs isFitted variant="unstyled">
+    <Flex w="full" maxW={{lg: '50%', sm: 'full'}} px={{ lg: "0", base: "4" }} minH='400px' mb={{lg: '0', sm: '30px', base: '40px'}}>
+      <Tabs w="full" maxW={{lg: '100%', sm: 'full'}} isFitted variant="unstyled" >
         <TabList>
           <Tab
-            _selected={{ color: "black", bg: "twitter.100" }}
+            _selected={{ color: "black", bg: 'yellow.200' }}
             border="none"
             rounded="lg"
             fontWeight="bold"
-            w="230px"
+            bg='violet.30'
             _focus={{ outline: "none" }}
+            mr='1'
           >
             Mi perfil
           </Tab>
           <Tab
-            _selected={{ color: "black", bg: "twitter.100" }}
+            _selected={{ color: "black", bg: 'yellow.200' }}
             border="none"
             rounded="lg"
             fontWeight="bold"
             _focus={{ outline: "none" }}
+            bg='violet.30'
+            mr='1'
           >
             Balance
           </Tab>
           <Tab
             rounded="lg"
-            _selected={{ color: "black", bg: "twitter.100" }}
+            _selected={{ color: "black", bg: 'yellow.200' }}
             border="none"
             fontWeight="bold"
             _focus={{ outline: "none" }}
+            bg='violet.30'
+    
           >
             Transacciones
           </Tab>

@@ -32,15 +32,13 @@ const Form: React.FC<Props> = () => {
 
   return (
     <Flex
-      px={{ lg: "0", base: "4" }}
-      p="2.5"
       flexDirection="column"
       m="auto"
-      w="50%"
+      w="full"
       h="full"
       textAlign="left"
       justifyContent="center"
-      maxW="400px"
+      maxW={{ lg: "400px", sm: "full" }}
     >
       <Heading mb="3" fontSize="25px" color="violet.100">
         Enviar Ethereum

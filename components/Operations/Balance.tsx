@@ -47,7 +47,7 @@ const Balance: React.FC<Props> = () => {
 
   return (
     <CardContainer>
-      <Stack w="full" alignItems="center">
+      <Stack w="full" alignItems="center" maxW={{ lg: "400px", sm: "full" }}>
         <Tag
           w="full"
           bg="violet.30"

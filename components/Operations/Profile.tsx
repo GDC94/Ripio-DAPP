@@ -34,7 +34,7 @@ const Profile: React.FC<Props> = () => {
   console.log(input);
   return (
     <CardContainer>
-      <Flex flexDirection="column" maxW="400px">
+      <Flex flexDirection="column" maxW="400px" >
         <Flex flexDirection="column" mb="3">
           <Tag
             rounded="full"
@@ -94,6 +94,7 @@ const Profile: React.FC<Props> = () => {
         flexDirection="column"
         textAlign="left"
         alignItems="left"
+ 
       >
         <form onSubmit={handleSubmit}>
           <FormControl isRequired>

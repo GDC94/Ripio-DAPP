@@ -1,11 +1,17 @@
 import { Button } from "@chakra-ui/button";
 import { Image } from "@chakra-ui/image";
-import { Box, Flex, Stack, Text } from "@chakra-ui/layout";
+import { Badge, Box, Flex, Stack, Text } from "@chakra-ui/layout";
 import { useEffect, useState } from "react";
 import { useMoralis } from "react-moralis";
 import { useRouter } from "next/router";
 import Helper from "../components/Help/Helper";
 import { Spinner } from "@chakra-ui/spinner";
+import {
+  Alert,
+  AlertDescription,
+  AlertIcon,
+  AlertTitle,
+} from "@chakra-ui/alert";
 
 interface Props {}
 
@@ -31,6 +37,11 @@ const SignIn: React.FC<Props> = () => {
 
   return (
     <Flex position="relative" h="100vh" flexDirection="row">
+        <Alert maxW='380px' top='4' status="error" position='absolute' rounded='lg' right='5'>
+          <AlertIcon />
+          <AlertTitle fontSize='sm'>Debes tener Metamask instalada en tu navegador</AlertTitle>
+         
+        </Alert>
       <Stack
         display={{ lg: "inherit", md: "none", base: "none" }}
         w="24%"
@@ -60,6 +71,7 @@ const SignIn: React.FC<Props> = () => {
         <Text textAlign="center" maxW="300px" pb="12" fontSize="19px">
           Ahora puedes identificarte utilizando tus credenciales de Metamask!
         </Text>
+      
 
         <Button
           px="4"

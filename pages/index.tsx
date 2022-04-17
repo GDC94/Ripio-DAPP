@@ -1,6 +1,6 @@
-import { Stack, Text } from "@chakra-ui/layout";
-
+import { Box, Stack, Text } from "@chakra-ui/layout";
 import Head from "next/head";
+import Alert from "../components/Alert/Alert";
 
 import Cover from "../components/CoverPage/Cover";
 import FeatureOne from "../components/Features/FeatureOne";
@@ -34,8 +34,23 @@ const Index: React.FC<Props> = () => {
       </Stack>
       <FooterSwitcher />
       <Stack alignItems="center" justifyContent="center" h="auto" bg="red">
-        <Text fontSize="12px" fontWeight="bold" color="white">
-          Este NO es el sitio oficial de RIPIO.
+        <Text
+          px="3"
+          textAlign="center"
+          fontSize="13px"
+          fontWeight="bold"
+          color="white"
+        >
+          Este NO es el sitio oficial de RIPIO. Es solamente una app de prueba
+          construida por{" "}
+          <Box
+            textDecoration="underline"
+            as="a"
+            href="https://www.linkedin.com/in/german-derbes-catoni/"
+            target={"_blank"}
+          >
+            German Derbes Catoni
+          </Box>
         </Text>
       </Stack>
       <Helper />

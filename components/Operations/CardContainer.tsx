@@ -7,7 +7,7 @@ const CardContainer: React.FC<Props> = ({ children }) => {
     <Flex
       flexDirection="column"
       m="auto"
-      maxW="400px"
+      maxW={{lg: '400px', sm: 'full'}}
       h="full"
       rounded="lg"
       alignItems="center"
