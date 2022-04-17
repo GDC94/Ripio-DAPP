@@ -6,12 +6,7 @@ import { useMoralis } from "react-moralis";
 import { useRouter } from "next/router";
 import Helper from "../components/Help/Helper";
 import { Spinner } from "@chakra-ui/spinner";
-import {
-  Alert,
-  AlertDescription,
-  AlertIcon,
-  AlertTitle,
-} from "@chakra-ui/alert";
+import { Alert, AlertIcon, AlertTitle } from "@chakra-ui/alert";
 
 interface Props {}
 
@@ -37,11 +32,20 @@ const SignIn: React.FC<Props> = () => {
 
   return (
     <Flex position="relative" h="100vh" flexDirection="row">
-        <Alert maxW='380px' top='4' status="error" position='absolute' rounded='lg' right='5'>
-          <AlertIcon />
-          <AlertTitle fontSize='sm'>Debes tener Metamask instalada en tu navegador</AlertTitle>
-         
-        </Alert>
+      <Alert
+        maxW="380px"
+        top="4"
+        status="error"
+        position="absolute"
+        rounded="lg"
+        right="5"
+        px="3"
+      >
+        <AlertIcon />
+        <AlertTitle fontSize="sm">
+          Debes tener Metamask instalada en tu navegador
+        </AlertTitle>
+      </Alert>
       <Stack
         display={{ lg: "inherit", md: "none", base: "none" }}
         w="24%"
@@ -59,7 +63,12 @@ const SignIn: React.FC<Props> = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Flex w="230px" justifyContent="space-between" alignItems="center">
+        <Flex
+          w="230px"
+          justifyContent="space-between"
+          alignItems="center"
+          mt={{ lg: "0", base: "50px" }}
+        >
           <Box as="a" href="/">
             <Image w="90px" src={"/assets/logonegro.svg"} alt="logo" />
           </Box>
@@ -71,7 +80,6 @@ const SignIn: React.FC<Props> = () => {
         <Text textAlign="center" maxW="300px" pb="12" fontSize="19px">
           Ahora puedes identificarte utilizando tus credenciales de Metamask!
         </Text>
-      
 
         <Button
           px="4"
@@ -113,11 +121,11 @@ const SignIn: React.FC<Props> = () => {
         </Stack>
 
         <Image
-          pt="7"
+          pt="3"
           display={{ lg: "none", sm: "inherit" }}
           src={"/assets/w.svg"}
           alt=""
-          w="250px"
+          w="200px"
         />
       </Stack>
 

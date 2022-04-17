@@ -42,7 +42,7 @@ const CardValues: React.FC = () => {
               justifyContent={{ sm: "space-around", base: "center" }}
             >
               <Stack>
-                <Image w={"70px"} src={feature.image} alt="" />
+                <Image w={{lg: "70px", base: "50px"}} src={feature.image} alt="" />
               </Stack>
 
               <Stack pt={{ lg: "4", sm: "0" }} pb={"6"} justifyContent="center">

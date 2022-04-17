@@ -24,7 +24,7 @@ const Index: React.FC<Props> = () => {
         <Cover />
       </Stack>
       <SectionOne />
-      <Stack mb="24">
+      <Stack mb="7">
         <FeatureOne />
       </Stack>
       <ValuesSection />

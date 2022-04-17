@@ -69,6 +69,7 @@ const FooterRipioMobile: React.FC = () => {
             bg: "transparent",
           }}
           cursor="pointer"
+          href={"/SignIn"}
         >
           {TEXTS.singInButton}
         </Button>
