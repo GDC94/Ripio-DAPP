@@ -95,7 +95,7 @@ export function HeroMobile() {
           fontWeight="400"
           lineHeight="26px"
           textAlign="center"
-          pt={{ sm: "6" }}
+          pt={{ sm: "4" }}
         >
           Comprá y vendé criptomonedas de la
           <br /> manera más simple.

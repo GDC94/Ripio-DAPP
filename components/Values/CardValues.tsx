@@ -27,7 +27,7 @@ const CardValues: React.FC = () => {
               }}
               as="a"
               href={feature.href}
-              p={{ lg: "9", md: "7", sm: "4", base: "9" }}
+              p={{ lg: "9", md: "7", sm: "7", base: "9" }}
               height={{ lg: "340px", sm: "auto", base: "230px" }}
               w={{ lg: "300px", md: "230px", sm: "220px" }}
               rounded="2xl"
@@ -41,8 +41,12 @@ const CardValues: React.FC = () => {
               mb={{ md: 0, sm: "35px" }}
               justifyContent={{ sm: "space-around", base: "center" }}
             >
-              <Stack>
-                <Image w={{lg: "70px", base: "50px"}} src={feature.image} alt="" />
+              <Stack mb={{ lg: "0", sm: "2", base: "1.5" }}>
+                <Image
+                  w={{ lg: "70px", base: "50px" }}
+                  src={feature.image}
+                  alt=""
+                />
               </Stack>
 
               <Stack pt={{ lg: "4", sm: "0" }} pb={"6"} justifyContent="center">
@@ -64,7 +68,7 @@ const CardValues: React.FC = () => {
                   fontSize="20px"
                   fontWeight="400"
                   fontFamily="body"
-                  pb={{ sm: "3", base: "3" }}
+                  pb={{ sm: "3", base: "1" }}
                 >
                   {feature.description}
                 </Text>
